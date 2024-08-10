@@ -9,12 +9,12 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t munchin_info = {
+static const variant_info_t munch_in_info = {
     .hwc_value = "INDIA",
     .sku_value = "",
 
     .brand = "POCO",
-    .device = "munchin",
+    .device = "munch_in",
     .marketname = "POCO F4",
     .model = "22021211RI",
     .build_fingerprint = "POCO/munch_in/munch:13/RKQ1.211001.001/V816.0.2.0.ULMMIXM:user/release-keys",
@@ -49,7 +49,7 @@ static const variant_info_t munch_info = {
 };
 
 static const std::vector<variant_info_t> variants = {
-    munchin_info,
+    munch_in_info,
     munch_global_info,
     munch_info,
 };
