@@ -17,6 +17,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit extra stuff
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+MATRIXX_MAINTAINER := Rik
+MATRIXX_CHIPSET := Snapdragon 870 5G
+MATRIXX_BATTERY := 4500mah
+MATRIXX_DISPLAY := 1080x2400
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
