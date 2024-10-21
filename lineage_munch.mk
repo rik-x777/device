@@ -18,7 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 MATRIXX_MAINTAINER := Rik
-MATRIXX_CHIPSET := Snapdragon 870 5G
+MATRIXX_CHIPSET := Kona
 MATRIXX_BATTERY := 4500mah
 MATRIXX_DISPLAY := 1080x2400
 
